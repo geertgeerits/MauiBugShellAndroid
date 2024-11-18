@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBugShellAndroid.MainPage">
+
+    <Shell.TitleView>
+        <HorizontalStackLayout>
+            <ImageButton
+                Source="dotnet_bot.png"
+                VerticalOptions="Center"
+                HeightRequest="40"
+                WidthRequest="40"
+                Clicked="OnImageButtonClicked" />
+
+            <Label
+                VerticalOptions="Center"
+                FontSize="20"
+                Text="Title" />
+        </HorizontalStackLayout>
+
+    </Shell.TitleView>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Margin="0,20,0,0"
+                FontSize="20"
+                Text="Click the icon in the title bar, then click the arrow on te new page. &#10; You will see the hamburger menu flash by on the left in the title view.">
+            </Label>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
