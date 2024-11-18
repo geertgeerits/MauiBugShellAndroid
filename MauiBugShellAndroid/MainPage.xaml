@@ -6,15 +6,17 @@
     <Shell.TitleView>
         <HorizontalStackLayout>
             <ImageButton
-                Source="dotnet_bot.png"
+                Source="info_32p.png"
                 VerticalOptions="Center"
                 HeightRequest="40"
                 WidthRequest="40"
+                Margin="50,0,0,0"
                 Clicked="OnImageButtonClicked" />
 
             <Label
                 VerticalOptions="Center"
                 FontSize="20"
+                Margin="20,0,0,0"
                 Text="Title" />
         </HorizontalStackLayout>
 
